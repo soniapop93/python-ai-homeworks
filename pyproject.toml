@@ -1,0 +1,20 @@
+[project]
+name = "python-ai-homeworks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "soniapop93", email = "popsonia85@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic[email]>=2.13.5",
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+python-ai-homeworks = "python_ai_homeworks:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
